@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Join</title>
+</head>
+<body>
+<h1>Roll The Dice!!!</h1>
+<h1 th:text="${number1}"></h1>
+<!--<h1 th:text="${number}"></h1>-->
+
+<form action="/rollDice" method="post">
+    <input type="text" name="roll" id="cohort-ip" class="field" />
+    <button>Join now</button>
+</form>
+
+</body>
+</html>
